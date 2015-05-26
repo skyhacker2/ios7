@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A56748491B11A0AE00052C7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A56748481B11A0AE00052C7C /* main.m */; };
+		A567484C1B11A0AE00052C7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A567484B1B11A0AE00052C7C /* AppDelegate.m */; };
+		A567484F1B11A0AE00052C7C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A567484E1B11A0AE00052C7C /* ViewController.m */; };
+		A56748521B11A0AE00052C7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A56748501B11A0AE00052C7C /* Main.storyboard */; };
+		A56748541B11A0AE00052C7C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A56748531B11A0AE00052C7C /* Images.xcassets */; };
+		A56748571B11A0AE00052C7C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A56748551B11A0AE00052C7C /* LaunchScreen.xib */; };
+		A56748631B11A0AE00052C7C /* DropBlockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A56748621B11A0AE00052C7C /* DropBlockTests.m */; };
+		A567486E1B11AB6B00052C7C /* DopitBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = A567486D1B11AB6B00052C7C /* DopitBehavior.m */; };
+		A56748711B11C5E700052C7C /* GameView.m in Sources */ = {isa = PBXBuildFile; fileRef = A56748701B11C5E700052C7C /* GameView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A567485D1B11A0AE00052C7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A567483B1B11A0AE00052C7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A56748421B11A0AE00052C7C;
+			remoteInfo = DropBlock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A56748431B11A0AE00052C7C /* DropBlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropBlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A56748471B11A0AE00052C7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A56748481B11A0AE00052C7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A567484A1B11A0AE00052C7C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A567484B1B11A0AE00052C7C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A567484D1B11A0AE00052C7C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A567484E1B11A0AE00052C7C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A56748511B11A0AE00052C7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A56748531B11A0AE00052C7C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A56748561B11A0AE00052C7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A567485C1B11A0AE00052C7C /* DropBlockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropBlockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A56748611B11A0AE00052C7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A56748621B11A0AE00052C7C /* DropBlockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropBlockTests.m; sourceTree = "<group>"; };
+		A567486C1B11AB6B00052C7C /* DopitBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DopitBehavior.h; sourceTree = "<group>"; };
+		A567486D1B11AB6B00052C7C /* DopitBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DopitBehavior.m; sourceTree = "<group>"; };
+		A567486F1B11C5E700052C7C /* GameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameView.h; sourceTree = "<group>"; };
+		A56748701B11C5E700052C7C /* GameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A56748401B11A0AE00052C7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A56748591B11A0AE00052C7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A567483A1B11A0AE00052C7C = {
+			isa = PBXGroup;
+			children = (
+				A56748451B11A0AE00052C7C /* DropBlock */,
+				A567485F1B11A0AE00052C7C /* DropBlockTests */,
+				A56748441B11A0AE00052C7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A56748441B11A0AE00052C7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A56748431B11A0AE00052C7C /* DropBlock.app */,
+				A567485C1B11A0AE00052C7C /* DropBlockTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A56748451B11A0AE00052C7C /* DropBlock */ = {
+			isa = PBXGroup;
+			children = (
+				A567484A1B11A0AE00052C7C /* AppDelegate.h */,
+				A567484B1B11A0AE00052C7C /* AppDelegate.m */,
+				A567484D1B11A0AE00052C7C /* ViewController.h */,
+				A567484E1B11A0AE00052C7C /* ViewController.m */,
+				A567486C1B11AB6B00052C7C /* DopitBehavior.h */,
+				A567486D1B11AB6B00052C7C /* DopitBehavior.m */,
+				A56748501B11A0AE00052C7C /* Main.storyboard */,
+				A56748531B11A0AE00052C7C /* Images.xcassets */,
+				A56748551B11A0AE00052C7C /* LaunchScreen.xib */,
+				A56748461B11A0AE00052C7C /* Supporting Files */,
+				A567486F1B11C5E700052C7C /* GameView.h */,
+				A56748701B11C5E700052C7C /* GameView.m */,
+			);
+			path = DropBlock;
+			sourceTree = "<group>";
+		};
+		A56748461B11A0AE00052C7C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A56748471B11A0AE00052C7C /* Info.plist */,
+				A56748481B11A0AE00052C7C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A567485F1B11A0AE00052C7C /* DropBlockTests */ = {
+			isa = PBXGroup;
+			children = (
+				A56748621B11A0AE00052C7C /* DropBlockTests.m */,
+				A56748601B11A0AE00052C7C /* Supporting Files */,
+			);
+			path = DropBlockTests;
+			sourceTree = "<group>";
+		};
+		A56748601B11A0AE00052C7C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A56748611B11A0AE00052C7C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A56748421B11A0AE00052C7C /* DropBlock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A56748661B11A0AE00052C7C /* Build configuration list for PBXNativeTarget "DropBlock" */;
+			buildPhases = (
+				A567483F1B11A0AE00052C7C /* Sources */,
+				A56748401B11A0AE00052C7C /* Frameworks */,
+				A56748411B11A0AE00052C7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DropBlock;
+			productName = DropBlock;
+			productReference = A56748431B11A0AE00052C7C /* DropBlock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A567485B1B11A0AE00052C7C /* DropBlockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A56748691B11A0AE00052C7C /* Build configuration list for PBXNativeTarget "DropBlockTests" */;
+			buildPhases = (
+				A56748581B11A0AE00052C7C /* Sources */,
+				A56748591B11A0AE00052C7C /* Frameworks */,
+				A567485A1B11A0AE00052C7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A567485E1B11A0AE00052C7C /* PBXTargetDependency */,
+			);
+			name = DropBlockTests;
+			productName = DropBlockTests;
+			productReference = A567485C1B11A0AE00052C7C /* DropBlockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A567483B1B11A0AE00052C7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Hunuo;
+				TargetAttributes = {
+					A56748421B11A0AE00052C7C = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					A567485B1B11A0AE00052C7C = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = A56748421B11A0AE00052C7C;
+					};
+				};
+			};
+			buildConfigurationList = A567483E1B11A0AE00052C7C /* Build configuration list for PBXProject "DropBlock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A567483A1B11A0AE00052C7C;
+			productRefGroup = A56748441B11A0AE00052C7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A56748421B11A0AE00052C7C /* DropBlock */,
+				A567485B1B11A0AE00052C7C /* DropBlockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A56748411B11A0AE00052C7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A56748521B11A0AE00052C7C /* Main.storyboard in Resources */,
+				A56748571B11A0AE00052C7C /* LaunchScreen.xib in Resources */,
+				A56748541B11A0AE00052C7C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A567485A1B11A0AE00052C7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A567483F1B11A0AE00052C7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A567484F1B11A0AE00052C7C /* ViewController.m in Sources */,
+				A56748711B11C5E700052C7C /* GameView.m in Sources */,
+				A567484C1B11A0AE00052C7C /* AppDelegate.m in Sources */,
+				A567486E1B11AB6B00052C7C /* DopitBehavior.m in Sources */,
+				A56748491B11A0AE00052C7C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A56748581B11A0AE00052C7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A56748631B11A0AE00052C7C /* DropBlockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A567485E1B11A0AE00052C7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A56748421B11A0AE00052C7C /* DropBlock */;
+			targetProxy = A567485D1B11A0AE00052C7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A56748501B11A0AE00052C7C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A56748511B11A0AE00052C7C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A56748551B11A0AE00052C7C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A56748561B11A0AE00052C7C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A56748641B11A0AE00052C7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A56748651B11A0AE00052C7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A56748671B11A0AE00052C7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DropBlock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A56748681B11A0AE00052C7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DropBlock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A567486A1B11A0AE00052C7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DropBlockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DropBlock.app/DropBlock";
+			};
+			name = Debug;
+		};
+		A567486B1B11A0AE00052C7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DropBlockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DropBlock.app/DropBlock";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A567483E1B11A0AE00052C7C /* Build configuration list for PBXProject "DropBlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A56748641B11A0AE00052C7C /* Debug */,
+				A56748651B11A0AE00052C7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A56748661B11A0AE00052C7C /* Build configuration list for PBXNativeTarget "DropBlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A56748671B11A0AE00052C7C /* Debug */,
+				A56748681B11A0AE00052C7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A56748691B11A0AE00052C7C /* Build configuration list for PBXNativeTarget "DropBlockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A567486A1B11A0AE00052C7C /* Debug */,
+				A567486B1B11A0AE00052C7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A567483B1B11A0AE00052C7C /* Project object */;
+}

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Ncl-uW-N5z">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Attributor-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xbV-O6-eyV">
+                                <rect key="frame" x="0.0" y="72" width="320" height="300"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kcj-Tt-CdR">
+                                <rect key="frame" x="16" y="388" width="73" height="67"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="67" id="dMd-3z-KeX"/>
+                                    <constraint firstAttribute="width" constant="73" id="ocY-SP-lw7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="ocY-SP-lw7"/>
+                                    </mask>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SoS-Yq-vLt">
+                                <rect key="frame" x="231" y="388" width="73" height="67"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="veA-et-ns1">
+                                <rect key="frame" x="124" y="388" width="73" height="67"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="kcj-Tt-CdR" firstAttribute="width" secondItem="veA-et-ns1" secondAttribute="width" id="0Ec-Zt-pbb"/>
+                            <constraint firstItem="veA-et-ns1" firstAttribute="firstBaseline" secondItem="SoS-Yq-vLt" secondAttribute="firstBaseline" id="1Jy-Oh-OpZ"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="kcj-Tt-CdR" secondAttribute="bottom" constant="113" id="4wO-e9-jGh"/>
+                            <constraint firstItem="veA-et-ns1" firstAttribute="bottom" secondItem="kcj-Tt-CdR" secondAttribute="bottom" id="5rp-ib-ypr"/>
+                            <constraint firstItem="veA-et-ns1" firstAttribute="firstBaseline" secondItem="kcj-Tt-CdR" secondAttribute="firstBaseline" id="6yy-0a-scJ"/>
+                            <constraint firstItem="veA-et-ns1" firstAttribute="leading" secondItem="kcj-Tt-CdR" secondAttribute="trailing" constant="35" id="DUP-FP-aLh"/>
+                            <constraint firstItem="veA-et-ns1" firstAttribute="baseline" secondItem="SoS-Yq-vLt" secondAttribute="baseline" id="FCH-XL-yqN"/>
+                            <constraint firstItem="veA-et-ns1" firstAttribute="leading" secondItem="kcj-Tt-CdR" secondAttribute="trailing" constant="35" id="KQs-Sh-myk"/>
+                            <constraint firstItem="xbV-O6-eyV" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="LRz-qm-V1V"/>
+                            <constraint firstItem="veA-et-ns1" firstAttribute="bottom" secondItem="SoS-Yq-vLt" secondAttribute="bottom" id="NLl-m4-yRL"/>
+                            <constraint firstItem="kcj-Tt-CdR" firstAttribute="top" secondItem="xbV-O6-eyV" secondAttribute="bottom" constant="16" id="NTo-7H-B2t"/>
+                            <constraint firstItem="veA-et-ns1" firstAttribute="top" secondItem="SoS-Yq-vLt" secondAttribute="top" id="OnP-MC-gsC"/>
+                            <constraint firstItem="veA-et-ns1" firstAttribute="top" secondItem="kcj-Tt-CdR" secondAttribute="top" id="PEl-dU-mPQ"/>
+                            <constraint firstItem="SoS-Yq-vLt" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="VvL-3h-OyT"/>
+                            <constraint firstItem="kcj-Tt-CdR" firstAttribute="baseline" secondItem="SoS-Yq-vLt" secondAttribute="baseline" id="WOR-zz-uvJ"/>
+                            <constraint firstItem="veA-et-ns1" firstAttribute="baseline" secondItem="kcj-Tt-CdR" secondAttribute="baseline" id="atg-C2-Din"/>
+                            <constraint firstAttribute="trailing" secondItem="xbV-O6-eyV" secondAttribute="trailing" id="bjw-zX-n4X"/>
+                            <constraint firstItem="kcj-Tt-CdR" firstAttribute="width" secondItem="SoS-Yq-vLt" secondAttribute="width" id="cxX-V9-vmj"/>
+                            <constraint firstItem="veA-et-ns1" firstAttribute="centerX" secondItem="xbV-O6-eyV" secondAttribute="centerX" id="e09-qX-QEW"/>
+                            <constraint firstItem="SoS-Yq-vLt" firstAttribute="leading" secondItem="veA-et-ns1" secondAttribute="trailing" constant="34" id="ihE-DX-ToK"/>
+                            <constraint firstItem="kcj-Tt-CdR" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="n9p-UD-Ki4"/>
+                            <constraint firstItem="xbV-O6-eyV" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" symbolic="YES" id="zii-90-nPK"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="DUP-FP-aLh"/>
+                                <exclude reference="ihE-DX-ToK"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="Attributor" id="cyw-Qr-4OH"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1144" y="323"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="dsb-4J-6Cf">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ncl-uW-N5z" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="A1u-PP-hrK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="c00-FN-1vM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mIt-jS-wy2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="323"/>
+        </scene>
+    </scenes>
+</document>
